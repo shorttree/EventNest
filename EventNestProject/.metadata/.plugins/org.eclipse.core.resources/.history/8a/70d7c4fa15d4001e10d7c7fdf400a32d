@@ -1,0 +1,6 @@
+package response;
+
+//basically a DTO -> DataTransferObjectS
+public class BookedVenueResponce {
+
+}

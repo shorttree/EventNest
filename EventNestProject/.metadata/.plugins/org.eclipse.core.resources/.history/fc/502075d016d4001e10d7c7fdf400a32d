@@ -1,0 +1,19 @@
+package response;
+
+import java.sql.Blob;
+import java.util.List;
+
+import com.project.EventNest.model.BookedVenue;
+
+
+//basically a DTO -> Data Transfer Object
+public class VenueResponse {
+	private Long id;
+	private String venue_type;
+	private double price;
+	private boolean  isBooked = false;
+	
+	private Blob photo;
+	
+	private List<BookedVenueResponse> bookings;
+}

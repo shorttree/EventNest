@@ -1,0 +1,22 @@
+server:
+  port:
+  
+ spring:
+   datasource:
+     username: root
+     password: 
+     url: jdbc:mysql://localhost:5173/EventNest
+     driver-class-name: com.mysql.cj.jdbc.Driver
+   jpa:
+     show-sql: true
+     hibernate:
+       ddl-auto: update
+       format_sql: true
+   servlet:
+     multipart:
+       max-file-size: 5MB
+       max-request-size: 5MB
+       file-size-threshold: 2KB       
+ 
+ 
+ 

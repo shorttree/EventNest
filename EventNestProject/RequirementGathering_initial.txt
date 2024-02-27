@@ -1,0 +1,16 @@
+Event Nest
+Event Management : 
+Use Cases : 
+Managing event
+#Create a new event
+ actors : consumer , vendor
+Fulfill an event (Demand and supply bring together)
+make a payment 
+get a feedback
+close an event  
+  
+
+
+
+
+register as a customer  -> log in -> select event category -> template for each event(Event nest to provide) -> choice of items to be selected from template -> 

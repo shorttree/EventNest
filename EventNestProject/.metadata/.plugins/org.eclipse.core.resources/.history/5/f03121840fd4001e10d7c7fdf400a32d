@@ -1,0 +1,60 @@
+package com.project.EventNest.model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Venue {
+	
+	private Long id;
+	private String venue_type;
+	private double price;
+	private boolean  isBooked = false;
+	private List<BookedVenue> bookings;
+
+	public Venue() {
+		//this is done to avoid the null pointer exception
+		this.bookings = new ArrayList<>();
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getVenue_type() {
+		return venue_type;
+	}
+
+	public void setVenue_type(String venue_type) {
+		this.venue_type = venue_type;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+	public boolean isBooked() {
+		return isBooked;
+	}
+
+	public void setBooked(boolean isBooked) {
+		this.isBooked = isBooked;
+	}
+
+	public List<BookedVenue> getBookings() {
+		return bookings;
+	}
+
+	public void setBookings(List<BookedVenue> bookings) {
+		this.bookings = bookings;
+	}
+	
+
+}

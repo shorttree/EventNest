@@ -1,0 +1,15 @@
+package com.project.EventNest.model;
+
+import java.time.LocalDate;
+
+public class BookedVenue {
+private Long booking_id;
+private LocalDate bookDate;
+private String guestFullName;
+private String guestEmail;
+private int NumOfGuests;
+//later can split guests into different categories like children , adults etc -> future scope
+private String bookingConfirmationCode;
+private Venue venue;
+
+}

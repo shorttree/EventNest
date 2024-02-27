@@ -1,0 +1,23 @@
+package response;
+
+import java.time.LocalDate;
+
+import com.project.EventNest.model.Venue;
+
+//basically a DTO -> Data Transfer Object
+public class BookingResponse {
+	private Long booking_id;
+	
+	private LocalDate bookDate;
+
+	private String guestFullName;
+
+	private String guestEmail;
+
+	private int NumOfGuests;
+
+	private String bookingConfirmationCode;
+
+	private Venue venue;
+
+}

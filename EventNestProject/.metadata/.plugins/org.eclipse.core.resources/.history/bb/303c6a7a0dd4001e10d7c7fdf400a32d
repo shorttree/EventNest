@@ -1,0 +1,17 @@
+package com.project.EventNest.model;
+
+import java.util.List;
+
+public class Venue {
+	
+	private Long id;
+	private String venue_type;
+	private double price;
+	private boolean  isBooked = false;
+	private List<BookedVenue> bookings;
+
+	public Venue() {
+		this.bookings = new ArrayList<>();
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.project.EventNest.model;
+
+public class Venue {
+
+}
